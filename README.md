@@ -9,6 +9,7 @@ serve
 
 ```
 ng generate component heroes
+ng generate component hero-detail
 ```
 
 # HeroesApp
