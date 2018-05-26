@@ -8,10 +8,15 @@ serve
  - builds the app, starts the development server, watches the source files, and rebuilds the app as you make changes to those files.
 
 ```
-ng generate component heroes
-ng generate component hero-detail
+npm run ng generate component heroes
+npm run ng generate component hero-detail
+npm run ng generate service hero
 ```
-
+to provide the servise at the module level
+```
+ng generate service hero --module=app
+```
+by default its root level
 # HeroesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
