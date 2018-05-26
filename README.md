@@ -7,6 +7,9 @@ serve
 ```
  - builds the app, starts the development server, watches the source files, and rebuilds the app as you make changes to those files.
 
+```
+ng generate component heroes
+```
 
 # HeroesApp
 
